@@ -1,0 +1,45 @@
+{
+  "name": "myApp",
+  "version": "1.0.0",
+  "description": "tailwindcss + vue3 + taro3",
+  "templateInfo": {
+    "name": "default",
+    "typescript": true,
+    "css": "less"
+  },
+  "scripts": {
+    "build:weapp": "taro build --type weapp",
+    "dev:weapp": "npm run build:weapp -- --watch"
+  },
+  "browserslist": [
+    "last 3 versions",
+    "Android >= 4.1",
+    "ios >= 8"
+  ],
+  "dependencies": {
+    "@babel/runtime": "^7.7.7",
+    "@tarojs/components": "3.0.21",
+    "@tarojs/runtime": "3.0.21",
+    "@tarojs/taro": "3.0.21",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.0",
+    "@tarojs/mini-runner": "3.0.21",
+    "@tarojs/webpack-runner": "3.0.21",
+    "@types/webpack-env": "^1.13.6",
+    "@typescript-eslint/eslint-plugin": "^2.x",
+    "@typescript-eslint/parser": "^2.x",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-preset-taro": "3.0.21",
+    "eslint": "^6.8.0",
+    "eslint-config-taro": "3.0.21",
+    "eslint-plugin-vue": "^7.0.0",
+    "postcss": "^8.2.2",
+    "stylelint": "9.3.0",
+    "tailwind-taro": "^0.0.1",
+    "tailwindcss": "^2.0.2",
+    "typescript": "^3.7.0",
+    "vue-loader": "^16.0.0-beta.8"
+  }
+}
